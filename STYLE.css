@@ -1,0 +1,342 @@
+.main {
+  color: rgb(246, 0, 37);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  text-shadow: black;
+  size-adjust: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(252, 183, 8);
+}
+
+.text {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 20px;
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-items: center;
+  margin-top: 20px;
+  list-style: lower-latin;
+  display: inline-block;
+  padding: 10px 16px;
+  border: 2px solid black;
+  border-radius: 20px;
+
+}
+
+.image1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.image1:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s ease;
+}
+
+.BLACK {
+  color: rgb(238, 227, 227);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-shadow: rgb(191, 45, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+  .BLACK:hover {
+    color: rgb(252, 183, 8);
+    text-shadow: black;
+  }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.container {
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -2%;
+  position: sticky;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(246, 0, 37);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(252, 183, 8);
+  ;
+  color: rgb(0, 0, 0);
+}
+
+.about-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+}
+
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-shadow: black;
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+}
+
+.q2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(219, 0, 0);
+  text-shadow: rgb(79, 34, 34);
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(13, 12, 12);
+}
+
+.to {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  margin-top: -5px;
+  width: -80%;
+  height: -600px;
+  margin-bottom: 2px;
+  background-color: rgb(247, 245, 245);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+.container-fluid {
+
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.topbar {
+  background: linear-gradient(to right, #2b0f0d, #0d4d4a, #6c2304);
+  color: white;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.right a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.right a:hover {
+  color: #ffea00;
+}
+
+.right .contact {
+  color: #ffea00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.looksy-navbar {
+  background: linear-gradient(to bottom, #103b61, #4d81b5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.looksy-navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.looksy-navbar ul li {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.looksy-navbar ul li:last-child {
+  border-right: none;
+}
+
+.looksy-navbar ul li a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #161c22, #396796);
+  transition: background 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+
+
+.looksy-navbar ul li a:hover {
+  background-color: #bd8832;
+  color: #cf9013;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .mkce-navbar ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .mkce-navbar ul::-webkit-scrollbar {
+    display: none;
+  }
+}
+.d-block w-100{
+  width: -50%;
+  height: auto;
+  display: block;
+}
+.carousel-item{
+  width:1500px;
+  height:300px;
+}
+.carousel-inner{
+  width:1650px;
+  height:300px;
+  margin-right: 1000px;
+}
+.carousel car slide {
+  width: 100%;
+  height: 300px;
+  margin-right: 1000px;
+}
+.loader {
+  height: 4px;
+  width: 130px;
+  --c:no-repeat linear-gradient(#ffffff 0);
+  background: var(--c),var(--c),#06A3DA;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+@keyframes l16 {
+  0%   {background-position:-150% 0,-150% 0}
+  66%  {background-position: 250% 0,-150% 0}
+  100% {background-position: 250% 0, 250% 0}
+}

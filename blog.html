@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Looksy Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"></script>
+    <style>
+      .blog-card {
+        margin-bottom: 2rem;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        background: rgba(255,255,255,0.92);
+      }
+      .blog-card-img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        min-height: 220px;
+        max-height: 260px;
+        border-radius: 0;
+      }
+      .blog-title {
+        font-weight: bold;
+        color: #333;
+      }
+      .blog-meta {
+        font-size: 0.9rem;
+        color: #777;
+      }
+      .read-more {
+        color: #0d6efd;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .read-more:hover {
+        text-decoration: underline;
+      }
+      .blog-card:hover {
+        margin-bottom: 1.5rem;
+        transition: 0.3s ease-in-out;
+        transform: translateY(-10px);
+      }
+      #bg-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+    </style>
+  <body>
+
+    <div class="container my-5">
+      <h1 style="font-family: 'Times New Roman', Times, serif;" class="mb-4 text-center fw-bold">Latest from Looksy Blog</h1>
+      
+      <div class="card blog-card mb-4">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="/img/blog2.webp" class="img-fluid blog-card-img" alt="Wallpaper Blog">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="blog-title">Behind the Pixels: Crafting Wallpapers That Inspire</h4>
+              <p class="blog-meta">Posted on August 7, 2025 by Team Looksy</p>
+              <p>Go behind the scenes with our design team as we explore what makes a wallpaper visually impactful. From mood boards to final renders — here's how we turn imagination into downloads.</p>
+              <a href="https://design.google/library/pixel-wallpaper-takes-flight" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card blog-card mb-4">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="/img/blog1.webp" class="img-fluid blog-card-img" alt="Wallpaper Blog">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="blog-title">Wallpaper Trends 2025: What’s Hot & What’s Not</h4>
+              <p class="blog-meta">Posted on August 3, 2025 by Looksy Editors</p>
+              <p>From dark AMOLED designs to Y2K nostalgia, explore the latest wallpaper aesthetics dominating phone and desktop screens this year — and how Looksy stays ahead of the curve.</p>
+              <a href="https://www.creatorspotlight.com/" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card blog-card mb-4">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <img src="/img/blog3.webp" class="img-fluid blog-card-img" alt="Wallpaper Blog">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="blog-title">Looksy Creator Spotlight: August Edition</h4>
+              <p class="blog-meta">Posted on August 1, 2025 by Community Team</p>
+              <p>Meet the talented artists behind this month’s featured wallpapers. Learn their creative process, inspiration, and how they built a global fanbase through the Looksy platform.</p>
+              <a href="https://blog.wallpaperdirect.com/wallpaper-trends-forecast-2025/" class="read-more">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <video autoplay muted loop id="bg-video">
+    <source src="/img/blog video.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+</body>
+</html>
